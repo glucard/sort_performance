@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 #include "selection_sort.h"
 #include "printPerfomance.h"
 
@@ -18,7 +19,7 @@ void selectionSort(List *L){
     Node *smallest;
     clock_t t; 
     t = clock(); 
-    int changes = 0, comparissions = 0;
+    unsigned long long int changes = 0, comparissions = 0;
     for(i = L->head; i != NULL; i = i->next){
         smallest = i;
         for(j = i; j != NULL; j = j->next){

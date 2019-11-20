@@ -36,4 +36,5 @@ void destroyList(List *L){
     }
     free(L->head);
     free(L);
+    L = NULL;
 }
