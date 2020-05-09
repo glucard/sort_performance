@@ -1,3 +1,3 @@
 # sort_performance
 
-Only study proposities
+Just for the purpose of studying sorts
