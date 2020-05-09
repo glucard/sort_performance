@@ -1,2 +1,3 @@
 # sort_performance
-Sort performance
+
+Only study proposities
